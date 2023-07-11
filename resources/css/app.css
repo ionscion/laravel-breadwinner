@@ -1,3 +1,10 @@
+/* .bg-custom {
+    background-image: url("/images/bg.jpg");
+} */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Path: resources/css/tailwind.css */
+
