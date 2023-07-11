@@ -5,7 +5,7 @@
     <div class="flex flex-col flex-wrap items-center mt-10 mb-10 ">
         <div class="flex flex-col bg-gray-200 bg-opacity-75 rounded-lg p-4 items-center">
             <h2 class="text-2xl font-bold text-center underline">Classic French Loaf</h2>
-            <img class="mt-4 max-w-xl" src="{{ asset('images/final-loaf.jpeg') }}" alt="Final Loaf of Bread">
+            <img class="mt-4 max-w-xl" src="{{ secure_asset('images/final-loaf.jpeg') }}" alt="Final Loaf of Bread">
             <p class="mt-4 text-sm">Note: This recipe can be created either with a starter or with standard yeast. In this
                 example, we'll be using standard yeast.</p>
         </div>
@@ -43,7 +43,7 @@
                     keep
                     mixing and it will eventually come together.</li>
                 <li>After around 5 minutes of stirring, you should be left with a sticky glob of dough:</li>
-                <img class="m-4 max-w-lg mx-auto" src="{{ asset('images/dough-proof.jpeg') }}" alt="Dough Glob">
+                <img class="m-4 max-w-lg mx-auto" src="{{ secure_asset('images/dough-proof.jpeg') }}" alt="Dough Glob">
                 <li>Cover your mixing bowl with a loose towel and let it sit on the counter for 2 hours.</li>
                 <li>At the 2 hour mark your dough should have risen quite a bit. Go ahead and punch it down, knead out any
                     significant air bubbles and form back into a ball in the bowl.</li>
@@ -62,7 +62,7 @@
                 <li>Place shaped ball into proofing basket, allow it settle while oven is preheating. By the time the oven
                     is
                     preheated, your proofing basket dough should hopefully have risen as follows:</li>
-                <img class="m-4 max-w-lg mx-auto" src="{{ asset('images/proof-basket.jpeg') }}" alt="Dough Rise">
+                <img class="m-4 max-w-lg mx-auto" src="{{ secure_asset('images/proof-basket.jpeg') }}" alt="Dough Rise">
                 <li>Carefully remove dough from proofing basket and place gently in Cast Iron pot. Place lid on pot and put
                     it
                     on the center oven rack.</li>
