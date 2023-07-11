@@ -1,0 +1,102 @@
+@extends('layouts.app')
+
+@section('Ben\'s Breads')
+
+@section('content')
+    <div id="app">
+        <h1 class="text-center">Ben's Breads!</h1>
+    </div>
+
+    <div>
+        <h2>Classic French Loaf</h2>
+        <p id="myNote">
+            Note: This recipe can be created either with a starter or with standard yeast. In this example we'll be using
+            standard yeast.
+        </p>
+    </div>
+
+    <div class="myDiv">
+        <h3>What you'll need</h3>
+
+        <ul class="myUl">
+            <li>*A quality baking/cooking scale is recommended*</li>
+            <li>Bread flour -600 grams</li>
+            <li>Salt - 12 to 19 grams, per taste</li>
+            <li>Yeast - 1/4 oz or 1 packet of instant dry yeast</li>
+            <li>Water - 2 cups/~450 grams</li>
+            <li>Pyrex measuring cup</li>
+            <li>Large Pyrex mixing bowl or comparable vessel</li>
+            <li>Proofing Basket</li>
+            <li>Large (3 Qt) Cast Iron Dutch Oven</li>
+        </ul>
+    </div>
+
+    <div class="olDiv">
+        <h3>Instructions</h3>
+        <ol>
+            <li>Weigh out 600 grams of bread flour (I recommend King Arthur brand). Place weighed flour in Pyrex mixing
+                bowl. At this point it's a good idea to whisk the flour to ensure there are no clumps.</li>
+            <li>Add salt to the flour bowl. Whisk is up to ensure it's evenly distributed.</li>
+            <li>Add water to separate Pyrex measuring cup - water temperature should be slightly warm but not too hot.
+            </li>
+            <li>Add yeast to water and stir it up so there are no visible clumps. Let it sit for a minute.</li>
+            <li>Combine yeast water with flour/salt mixture.</li>
+            <li>Stir together until they are well combined. Don't worry if it looks like you don't have enough water,
+                keep
+                mixing and it will eventually come together.</li>
+            <li>After around 5 minutes of stirring, you should be left with a sticky glob of dough:</li>
+            <p></p>
+            <img src="assets/dough-proof.jpeg" alt="picture of dough after mixing" style="height:400px; width:400px">
+            <p></p>
+            <li>Cover your mixing bowl with a loose towel and let it sit on the counter for 2 hours.</li>
+            <li>At the 2 hour mark your dough should have risen quite a bit. Go ahead and punch it down, knead out any
+                significant air bubbles and form back into a ball in the bowl.</li>
+            <li>At the point you have 2 options:
+                <ul>
+                    <li>Cover bread back up and wait another 2 hours; or</li>
+                    <li>Cover bread and place in refridgerator for up to 18 hours (this will enable a slower rise so you
+                        can
+                        attend to it later).</li>
+                </ul>
+
+            </li>
+            <li>After your choice in prior step, turnout dough onto lightly floured countertop and shape into a ball.
+            </li>
+            <button id="notebtn">Variation</button>
+            <div>
+                <p id="note-content"></p>
+            </div>
+
+            <li>Preheat oven to 480 Degrees for up to 1 hour with dutch oven inside (fill dutch oven with a little
+                water).</li>
+            <li>Place shaped ball into proofing basket, allow it settle while oven is preheating. By the time the oven
+                is
+                preheated, your proofing basket dough should hopefully have risen as follows:</li>
+            <br>
+            <img src="assets/proof-basket.jpeg" alt="picture of dough in proofing basket" style="height:400px; width:400px">
+            <br>
+            <li>Carefully remove dough from proofing basket and place gently in Cast Iron pot. Place lid on pot and put
+                it
+                on the center oven rack.</li>
+            <li>Lower temperature to 435 Degrees and bake with lid on for 30 minutes.</li>
+            <li>Remove the lid from the pot and continue to bake for an additional 15 minutes.</li>
+            <li>Remove bread from the oven and place on cooling rack. Allow to fully cool (about 2 hours) before cutting
+                into the loaf.</li>
+            <li>Enjoy your homemade bread!</li>
+        </ol>
+    </div>
+
+    <div class="myDiv">
+        <h4>Tips and Tricks</h4>
+        <p>You can adjust the time for the final lid off bake up a bit if you like a much crispier crust.</p>
+        <p>If you are having trouble safely transporting the final dough ball into the cast iron pot it may help to cut
+            a
+            square of parchment paper - place the paper on top of proofing basket and gently flip over. This will allow
+            you to
+            grab the loaf from the
+            parchment and place it all in the pot at once.</p>
+        <p>Experiment with different types of flour. Different brands have different attributes</p>
+    </div>
+
+
+@endsection
