@@ -19,7 +19,7 @@
 
 <body class="bg-custom">
     <nav class="bg-slate-300 bg-opacity-75 p-4 shadow-lg">
-        <h1 class="text-4xl font-bold text-teal-900/75">Ben's Breads!</h1>
+        <h1 class="text-4xl font-bold text-teal-800/75">Ben's Breads!</h1>
     </nav>
     @yield('content')
 
