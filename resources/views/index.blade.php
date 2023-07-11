@@ -3,22 +3,22 @@
 @section('Ben\'s Breads')
 
 @section('content')
-    <div id="app">
+    <div>
         <h1 class="text-center">Ben's Breads!</h1>
     </div>
 
-    <div>
+    <div class="flex flex-col justify-center items-center mt-10 mb-10">
         <h2>Classic French Loaf</h2>
-        <p id="myNote">
+        <p class="text-sm">
             Note: This recipe can be created either with a starter or with standard yeast. In this example we'll be using
             standard yeast.
         </p>
     </div>
 
-    <div class="myDiv">
+    <div class="flex flex-col items-center justify-center mt-10 mb-10">
         <h3>What you'll need</h3>
 
-        <ul class="myUl">
+        <ul class="list-disc">
             <li>*A quality baking/cooking scale is recommended*</li>
             <li>Bread flour -600 grams</li>
             <li>Salt - 12 to 19 grams, per taste</li>
@@ -31,9 +31,9 @@
         </ul>
     </div>
 
-    <div class="olDiv">
+    <div class="flex flex-col items-center justify-center mt-10 mb-10">
         <h3>Instructions</h3>
-        <ol>
+        <ol class="list-disc">
             <li>Weigh out 600 grams of bread flour (I recommend King Arthur brand). Place weighed flour in Pyrex mixing
                 bowl. At this point it's a good idea to whisk the flour to ensure there are no clumps.</li>
             <li>Add salt to the flour bowl. Whisk is up to ensure it's evenly distributed.</li>
@@ -45,16 +45,14 @@
                 keep
                 mixing and it will eventually come together.</li>
             <li>After around 5 minutes of stirring, you should be left with a sticky glob of dough:</li>
-            <p></p>
-            <img src="assets/dough-proof.jpeg" alt="picture of dough after mixing" style="height:400px; width:400px">
-            <p></p>
+
             <li>Cover your mixing bowl with a loose towel and let it sit on the counter for 2 hours.</li>
             <li>At the 2 hour mark your dough should have risen quite a bit. Go ahead and punch it down, knead out any
                 significant air bubbles and form back into a ball in the bowl.</li>
             <li>At the point you have 2 options:
-                <ul>
+                <ul class="list-decimal mx-10">
                     <li>Cover bread back up and wait another 2 hours; or</li>
-                    <li>Cover bread and place in refridgerator for up to 18 hours (this will enable a slower rise so you
+                    <li>Cover bread and place in fridge for up to 18 hours (this will enable a slower rise so you
                         can
                         attend to it later).</li>
                 </ul>
@@ -62,19 +60,13 @@
             </li>
             <li>After your choice in prior step, turnout dough onto lightly floured countertop and shape into a ball.
             </li>
-            <button id="notebtn">Variation</button>
-            <div>
-                <p id="note-content"></p>
-            </div>
 
             <li>Preheat oven to 480 Degrees for up to 1 hour with dutch oven inside (fill dutch oven with a little
                 water).</li>
             <li>Place shaped ball into proofing basket, allow it settle while oven is preheating. By the time the oven
                 is
                 preheated, your proofing basket dough should hopefully have risen as follows:</li>
-            <br>
-            <img src="assets/proof-basket.jpeg" alt="picture of dough in proofing basket" style="height:400px; width:400px">
-            <br>
+
             <li>Carefully remove dough from proofing basket and place gently in Cast Iron pot. Place lid on pot and put
                 it
                 on the center oven rack.</li>
@@ -86,16 +78,17 @@
         </ol>
     </div>
 
-    <div class="myDiv">
+    <div class="flex flex-col flex-wrap items-center mt-10 mb-10">
         <h4>Tips and Tricks</h4>
-        <p>You can adjust the time for the final lid off bake up a bit if you like a much crispier crust.</p>
-        <p>If you are having trouble safely transporting the final dough ball into the cast iron pot it may help to cut
-            a
-            square of parchment paper - place the paper on top of proofing basket and gently flip over. This will allow
-            you to
-            grab the loaf from the
-            parchment and place it all in the pot at once.</p>
-        <p>Experiment with different types of flour. Different brands have different attributes</p>
+        <ul class="list-decimal">
+            <li>You can adjust the time for the final lid off bake up a bit if you like a much crispier crust.</li>
+
+            <li>Use a piece of parchment paper to line the bottom of the cast iron pot. This will help prevent the loaf
+                from
+                sticking to the bottom.</li>
+            <li>You can use the parchment paper to transport the dough ball into the hot pot!</li>
+            <li>Experiment with different types of flour. Different brands have different attributes.</li>
+        </ul>
     </div>
 
 
