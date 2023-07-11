@@ -16,7 +16,7 @@
             <h3 class="text-xl font-bold text-center">What You'll Need</h3>
             <ul class="mt-4 list-disc list-inside">
                 <li>*A quality baking/cooking scale is recommended*</li>
-                <li>Bread flour -600 grams</li>
+                <li>Bread flour - 600 grams</li>
                 <li>Salt - 12 to 19 grams, per taste</li>
                 <li>Yeast - 1/4 oz or 1 packet of instant dry yeast</li>
                 <li>Water - 2 cups/~450 grams</li>
