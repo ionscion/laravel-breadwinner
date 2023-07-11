@@ -13,6 +13,12 @@ h1, h2, h3 {
   p {
     font-family: 'Roboto', sans-serif;
   }
+
+  @media (max-width: 640px) {
+    .my-custom-class {
+      /* Styles for screens smaller than 640px */
+    }
+  }
   
 /* Path: resources/css/tailwind.css */
 
