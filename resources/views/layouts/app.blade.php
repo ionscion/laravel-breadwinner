@@ -8,7 +8,7 @@
     <title>Ben's Breads</title>
     <style>
         .bg-custom {
-            background-image: url('{{ asset('images/bg.jpg') }}');
+            background-image: url('{{ asset('images/bg-purple.jpg') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
